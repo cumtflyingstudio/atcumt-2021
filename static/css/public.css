@@ -1,0 +1,97 @@
+/*公用样式*/
+body,
+html {
+    min-width: 1200px;
+}
+
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+input,
+textarea,
+select {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*移动版适配样式*/
+/* 
+@media screen and (max-width: 768px)
+{
+    body,
+    html
+    {
+        font-size: 62.5%;
+
+        min-width: 120px;
+    }
+    body,
+    ol,
+    ul,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    th,
+    td,
+    dl,
+    dd,
+    form,
+    input,
+    textarea,
+    select
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    a
+    {
+        text-decoration: none;
+    }
+
+    .center
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        overflow: hidden;
+
+        width: 100%;
+    }
+} */
